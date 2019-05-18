@@ -1,0 +1,204 @@
+body{
+    font-family: Josefin Sans, sans-serif;
+    background-image: url(SVG/background.svg);
+    background-size: cover;
+    padding: 10px;
+}
+h1{
+    color: white;
+    font-size: 5em;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+p{
+    padding-top: 0;
+}
+.lead{
+    color: white;
+}
+#Add-button{
+    height: 40px;
+}
+#Add_course{
+  position: absolute;
+  bottom: -10px;
+  left: 45px;
+}
+#Add_course:hover{
+    color: #777777;
+    cursor: pointer;
+}
+#adding{
+    position: relative;
+}
+.To-DoContainer{
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    width: 280px;
+    padding:0;
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #e8e8e8;
+}
+.completed{
+    color: grey;
+    text-decoration: line-through;
+}
+.To-DoContainer h1{
+    background:#963b4c;
+    color: #ffffff;
+            margin: 0px;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: normal;
+            text-transform: uppercase;
+}        
+.To-DoContainer h1::focus{
+    background:#963b4c;
+    color: #ffffff;
+    margin: 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}   
+.To-DoContainer ul{
+    list-style: none;
+    padding: 0;
+}
+.To-DoContainer li{
+    color: #666;
+    line-height: 50px;
+}        
+.To-DoContainer li:nth-child(2n){
+    background: #f7f7f7;
+}
+li #text{
+    padding-left: 20px;
+}
+input{
+    height:40px;
+    width:100%;
+    font-size: 18px;
+    background: #f7f7f7;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #963b4c;
+    outline: none;
+    border: 0;
+}
+.To-DoContainer input::focus{
+    background: white;
+    border: 1px solid #963b4c;
+    outline: none;
+}
+.fa-plus{
+    float: right;
+    bottom: 20px;
+}
+.removeToDos{
+    background: #963b4c;
+    height:50px;
+    width: 0;
+    color: white;
+    display: none;
+    text-align: center;
+}
+li:hover .removeToDos{
+    width: 40px;
+    display: inline-block;
+    color: white;
+}
+table i{
+    color:#963b4c;
+    float:right;
+    padding-right:0.7em;
+    padding-top:0.15em;
+}
+table{
+    padding: 0;
+    margin: 0;
+}
+.toDoDisplay{
+    display:none;
+}
+td{
+    border: 1px solid black;
+    width:33%;
+    height:100%;
+    vertical-align: top;
+}
+#To-do2{
+    display: none;
+    vertical-align:top;
+}
+#To-do3{
+    display: none;
+    vertical-align:top;
+}
+#To-do4{
+    display: none;
+    vertical-align:top;
+}
+#To-do5{
+    display: none;
+    vertical-align:top;
+}
+#To-do6{
+    display: none;
+    vertical-align:top;
+}
+#Add-courses{
+    display: inline-block;
+    background-color: #e8e8e8;
+    width:130px;
+    height: 2.5em;
+    border-radius: 15px;
+    display:inline-block;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    padding-top: 8px;
+}
+#new_course{
+    color: #9D4D63;
+    font-size:2.5em;
+    z-index: 1;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 1000px;
+    background: rgba(237, 204, 209, 0.32);
+    position: absolute;
+}
+.courseName_input{
+    background: none;
+    color: white;
+    padding: 0;
+}
+.courseName_input:focus{
+    background: none;
+    color: white;
+    padding: 0;
+}
+h1 ::placeholder {
+  color: white;
+  opacity: 0.8; 
+}
+.title{
+    width:500px;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    background: none;
+    height: 80px;
+    color: white;
+    padding-left: 20px;   
+    cursor: text;
+}
+.title::focus{
+    background: none;
+    border: none;
+}

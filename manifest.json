@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Calendar",
+	"description": "Hopefully this is gonna help you become better better at time management",
+	"version": "1",
+	"author": "Aaiza Khalid",
+
+	"browser_action": {
+		"default_icon": "icon.jpg",
+		"default_title":"Have a good day"
+	},
+	"chrome_url_overrides":{
+		"newtab": "newtab.html"
+	},
+	"permissions": ["activeTab", "storage"]
+	
+}
